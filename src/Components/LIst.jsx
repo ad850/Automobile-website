@@ -1,3 +1,13 @@
+import models from "../images/model-s.jpg";
+import modely from "../images/model-y.jpg";
+import model3 from "../images/model-3.jpg";
+import modelx from "../images/model-x.jpg";
+import solarpanel from "../images/solar-panel.jpg";
+import solarroof from "../images/solar-roof.jpg";
+import accessories from "../images/accessories.jpg";
+
+
+
 
 const List = [
 
@@ -7,7 +17,7 @@ const List = [
         tagline: "Order Online for Touchless Delivery",
         lbutton: "Custom Order",
         rbutton: "Existing Inventory",
-        image: "/images/model-s.jpg"
+        image: models
     },
     {
         id: 2,
@@ -15,7 +25,7 @@ const List = [
         tagline: "Order Online for Touchless Delivery",
         lbutton: "Custom Order",
         rbutton: "Existing Inventory",
-        image: "/images/model-y.jpg"
+        image: modely
     },
     {
         id: 3,
@@ -23,7 +33,7 @@ const List = [
         tagline: "Order Online for Touchless Delivery",
         lbutton: "Custom Order",
         rbutton: "Existing Inventory",
-        image: "/images/model-3.jpg"
+        image: model3
     },
 
     {
@@ -33,7 +43,7 @@ const List = [
         tagline: "Order Online for Touchless Delivery",
         lbutton: "Custom Order",
         rbutton: "Existing Inventory",
-        image: "/images/model-x.jpg"
+        image: modelx
     },
 
     {
@@ -42,7 +52,7 @@ const List = [
         tagline: "Money back guarantee",
         lbutton: " Order Now",
         rbutton: "Learn More",
-        image: "/images/solar-panel.jpg"
+        image: solarpanel,
     },
 
     {
@@ -51,14 +61,14 @@ const List = [
         tagline: " Produce Clean Energy From Your Roof",
         lbutton: " Order Now",
         rbutton: "Learn More",
-        image: "/images/solar-roof.jpg"
+        image: solarroof,
     },
     {
         id: 7,
         name: "Accessories",
         lbutton: " Shop Now",
-        image: "/images/accessories.jpg"
+        image: accessories,
     },
-  
+
 ]
 export default List;

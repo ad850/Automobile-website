@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
+import ReactLogo from "../images/down-arrow.svg"
+
 
 const Section = ({ lbutton, name, rbutton, tagline, image }) => {
 
@@ -36,7 +38,7 @@ const Section = ({ lbutton, name, rbutton, tagline, image }) => {
 
                 </Fade>
 
-                <DownArrow src="/images/down-arrow.svg" />
+                <DownArrow src={ReactLogo} />
             </Buttons>
 
         </Wrap >

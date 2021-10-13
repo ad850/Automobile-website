@@ -6,6 +6,7 @@ import IconButton from '@mui/material/IconButton';
 import { useState } from 'react';
 import { selectCars } from '../redux/carSlice';
 import { useSelector } from 'react-redux';
+import ReactLogo from "../images/logo.svg"
 
 
 function Header() {
@@ -17,7 +18,7 @@ function Header() {
         <Container>
 
             <a>
-                <img src="/images/logo.svg" alt="google" />
+                <img src={ReactLogo} alt="google" />
             </a>
 
             <Menu>
@@ -51,7 +52,7 @@ function Header() {
                 <li><a href="#"> Trade -In</a></li>
                 <li><a href="#"> Cyber Truck</a></li>
                 <li><a href="#">Charging</a></li>
-               
+
 
             </BurgerNav>
 
