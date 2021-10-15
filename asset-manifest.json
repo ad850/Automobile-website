@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Automobile-website/static/css/main.21066374.chunk.css",
+    "main.js": "/Automobile-website/static/js/main.13366bca.chunk.js",
+    "main.js.map": "/Automobile-website/static/js/main.13366bca.chunk.js.map",
+    "runtime-main.js": "/Automobile-website/static/js/runtime-main.e714ad5a.js",
+    "runtime-main.js.map": "/Automobile-website/static/js/runtime-main.e714ad5a.js.map",
+    "static/js/2.b751ca5b.chunk.js": "/Automobile-website/static/js/2.b751ca5b.chunk.js",
+    "static/js/2.b751ca5b.chunk.js.map": "/Automobile-website/static/js/2.b751ca5b.chunk.js.map",
+    "index.html": "/Automobile-website/index.html",
+    "static/css/main.21066374.chunk.css.map": "/Automobile-website/static/css/main.21066374.chunk.css.map",
+    "static/js/2.b751ca5b.chunk.js.LICENSE.txt": "/Automobile-website/static/js/2.b751ca5b.chunk.js.LICENSE.txt",
+    "static/media/accessories.027ada94.jpg": "/Automobile-website/static/media/accessories.027ada94.jpg",
+    "static/media/down-arrow.9b52668f.svg": "/Automobile-website/static/media/down-arrow.9b52668f.svg",
+    "static/media/logo.a7b59bc6.svg": "/Automobile-website/static/media/logo.a7b59bc6.svg",
+    "static/media/model-3.30651f79.jpg": "/Automobile-website/static/media/model-3.30651f79.jpg",
+    "static/media/model-s.b65171b9.jpg": "/Automobile-website/static/media/model-s.b65171b9.jpg",
+    "static/media/model-x.25937b94.jpg": "/Automobile-website/static/media/model-x.25937b94.jpg",
+    "static/media/model-y.30acb76a.jpg": "/Automobile-website/static/media/model-y.30acb76a.jpg",
+    "static/media/solar-panel.d7d441d7.jpg": "/Automobile-website/static/media/solar-panel.d7d441d7.jpg",
+    "static/media/solar-roof.acfd9045.jpg": "/Automobile-website/static/media/solar-roof.acfd9045.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e714ad5a.js",
+    "static/js/2.b751ca5b.chunk.js",
+    "static/css/main.21066374.chunk.css",
+    "static/js/main.13366bca.chunk.js"
+  ]
+}
