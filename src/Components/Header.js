@@ -8,63 +8,41 @@ import { selectCars } from '../redux/carSlice';
 import { useSelector } from 'react-redux';
 import ReactLogo from "../images/logo.svg"
 
-
 function Header() {
     const [burgerStatus, setBurgerStatus] = useState(false);
-
     const cars = useSelector(selectCars)
-
     return (
         <Container>
-
             <a>
                 <img src={ReactLogo} alt="google" />
             </a>
 
             <Menu>
-
                 {cars.map((car, index) => (
-
                     <a href="#" key={index}>{car}</a>
                 ))}
             </Menu>
-
             <RightMenu>
-
                 <a href="">Shop</a>
                 <a href="">Account</a>
-
                 <CustomMenu onClick={() => { setBurgerStatus(true) }} />
-
-
             </RightMenu>
 
             <BurgerNav show={burgerStatus} >
-
                 <CustomeClose><IconButton onClick={() => { setBurgerStatus(false) }}> <CloseIcon /></IconButton> </CustomeClose>
-
                 {cars.map((car, index) => (
                     <li key={index}><a href="#" >{car}</a></li>
-
                 ))}
                 <li><a href="#"> Existing Inventory</a></li>
                 <li><a href="#"> Used Inventory</a></li>
                 <li><a href="#"> Trade -In</a></li>
                 <li><a href="#"> Cyber Truck</a></li>
                 <li><a href="#">Charging</a></li>
-
-
             </BurgerNav>
-
-
-
         </Container>
     )
 }
-
 export default Header
-
-
 const Container = styled.div`
 
 min-height:60px;
@@ -99,32 +77,20 @@ a{
 }
 
 `
-
-
 const RightMenu = styled.div`
-
-
 display:flex;
 justify-content:center;
 align-items:center;
-
 a{
     font-weight:600;
     text-decoration:uppercase;
     margin-right:15px;
 }
-
 `
-
-
 const CustomMenu = styled(MenuIcon)`
-
 cursor:pointer;
-
 `
 const BurgerNav = styled.div`
-
-
 position:fixed;
 top:0;
 bottom:0;
@@ -150,9 +116,7 @@ a{
 
     font-weight: 600;
 }
-
 }
-
 `
 
 const CustomeClose = styled.div`
